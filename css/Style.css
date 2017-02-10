@@ -1,0 +1,56 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+header li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+header li a:hover:not(.active) {
+    background-color: #111;
+}
+
+header .active {
+    background-color: #4CAF50;
+}
+#Article
+{
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: red;
+    border: black solid 2px;
+    border-radius: 2%;
+    height: 800px;
+}
+.logo
+{
+    padding-top: 0px;
+    width: 25px;
+    height: 25px;
+}
+#Reseaux
+{
+    text-align: center;
+    margin: 2px;
+    padding: 2px;
+
+
+}
+footer
+{
+    height: 200px;
+}
