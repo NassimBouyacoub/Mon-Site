@@ -1,4 +1,4 @@
-ul {
+header ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -6,7 +6,7 @@ ul {
     background-color: #333;
 }
 
-li {
+header li {
     float: left;
 }
 
@@ -44,13 +44,16 @@ header .active {
 }
 #Reseaux
 {
-    text-align: center;
-    margin: 2px;
-    padding: 2px;
+    text-align: left;
+    width: 30%;
+  
+    border: black solid 2px;
 
 
 }
 footer
 {
-    height: 200px;
+    border-radius: 2%;
+    border: black solid 2px;
+
 }
